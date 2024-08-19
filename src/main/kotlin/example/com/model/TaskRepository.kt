@@ -5,7 +5,7 @@ object TaskRepository {
         Task("cleaning", "Clean the house", Priority.Low),
         Task("gardening", "Mow the lawn", Priority.Medium),
         Task("shopping", "Buy the groceries", Priority.High),
-        Task("painting", "Paint the fence", Priority.Vital)
+        Task("painting", "Paint the fence", Priority.Medium)
     )
 
     fun allTasks(): List<Task> = tasks
